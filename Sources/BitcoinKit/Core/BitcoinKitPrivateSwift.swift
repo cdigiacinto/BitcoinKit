@@ -23,7 +23,7 @@
 //
 
 import Foundation
-import secp256k1
+import Msecp256k1
 import ripemd160
 import CryptoSwift
 

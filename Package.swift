@@ -8,13 +8,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/zhangliugang/ripemd160", .branch("master")),
-        .package(url: "https://github.com/Boilertalk/secp256k1.swift", from: "0.1.0"),
+        .package(url: "https://github.com/cdigiacinto/Msecp256k1.swift", .branch("master")),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.5.1")
     ],
     targets: [
         .target(
             name: "BitcoinKit",
-            dependencies: ["secp256k1", "ripemd160", "CryptoSwift"]
+            dependencies: ["Msecp256k1", "ripemd160", "CryptoSwift"]
         ),
         .testTarget(
             name: "BitcoinKitTests",
