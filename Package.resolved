@@ -6,17 +6,8 @@
         "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
         "state": {
           "branch": null,
-          "revision": "db51c407d3be4a051484a141bf0bff36c43d3b1e",
-          "version": "1.8.0"
-        }
-      },
-      {
-        "package": "Msecp256k1",
-        "repositoryURL": "https://github.com/cdigiacinto/Msecp256k1.swift",
-        "state": {
-          "branch": "master",
-          "revision": "e79d3de0e68f6caf617a5cb672f669f5d61d2f4d",
-          "version": null
+          "revision": "7892a123f7e8d0fe62f9f03728b17bbd4f94df5c",
+          "version": "1.8.1"
         }
       },
       {
@@ -26,6 +17,15 @@
           "branch": "master",
           "revision": "215d9675af3f8151e7ae43076afbcb765dd12601",
           "version": null
+        }
+      },
+      {
+        "package": "secp256k1",
+        "repositoryURL": "https://github.com/GigaBitcoin/secp256k1.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "1a14e189def5eaa92f839afdd2faad8e43b61a6e",
+          "version": "0.12.2"
         }
       }
     ]
